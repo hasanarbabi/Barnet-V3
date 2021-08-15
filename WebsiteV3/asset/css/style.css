@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: iransans;
+    background-color: #f7f7fa;
     overflow-x: hidden;
 }
 
@@ -49,10 +50,6 @@ h2 {
 
 .bg-blue {
     background-color: #2a2e43;
-}
-
-body {
-    background-color: #f7f7fa;
 }
 
 .page1 {
@@ -598,6 +595,13 @@ footer {
     .dlpng {
         width: 100%;
         height: 100%;
+    }
+
+
+    .mm {
+        /* margin: 0 auto; */
+  overflow: hidden;
+  /* position: relative; */
     }
 
     .Group-1759 {
