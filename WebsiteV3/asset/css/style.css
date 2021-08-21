@@ -126,6 +126,10 @@ h2 {
     background-color: #ffbf1d;
 }
 
+.dltr {
+    direction: ltr;
+}
+
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
@@ -135,6 +139,7 @@ h2 {
 
 .cmb {
     margin-bottom: 200px;
+    direction: rtl;
 }
 
 .page3, .page3mobile  {
