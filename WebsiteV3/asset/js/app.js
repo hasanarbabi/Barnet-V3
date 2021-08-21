@@ -198,7 +198,7 @@ $(window).scroll(function (event) {
 var owl = $("#nazarat");
 owl.owlCarousel({
     rtl: true,
-    items: 3,
+    // items: 3,
     loop: true,
     margin: 20,
     autoplay: true,
@@ -212,16 +212,16 @@ owl.owlCarousel({
             items: 1,
         },
         900: {
-            items: 1,
+            items: 2,
         },
         1000: {
-            items: 1,
+            items: 2,
         },
         1200: {
             items: 2,
         },
         1700: {
-            items: 3,
+            items: 4,
         }
     }
 });

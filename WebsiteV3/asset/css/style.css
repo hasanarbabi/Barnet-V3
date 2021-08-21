@@ -1,5 +1,5 @@
 @font-face {
-    font-family: iransans;
+    font-family: iransansg;
     src: url(../font/IRANSansWeb.ttf);
     src: url(../font/IRANSansWeb\(FaNum\).woff2);
 }
@@ -8,9 +8,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: iransansg;
+}
+
 body {
-    font-family: iransans;
-    overflow-x: hidden;
     background:linear-gradient( rgba(247, 247, 250, 0.99) 100%, rgba(247, 247, 250, 0.99)100%),url("../images/London\ Map.svg");
     background-size: cover;
     background-attachment: fixed;
@@ -87,10 +89,6 @@ h2 {
     background-size: cover;
     background-attachment: fixed;
 } */
-
-.mar-top {
-    margin-top: -300px;
-}
 
 .phone1 {
     height: 900px;
@@ -285,7 +283,7 @@ h2 {
     box-shadow: 0 3px 8px 0 rgba(42, 46, 67, 0.2);
     border: solid 0.5px rgba(53, 58, 80, 0.05);
     background-color: #ffffff;
-    transition: all 1s; 
+    /* transition: all 1s;  */
 }
 
 .Rectangle-2076 {
@@ -297,21 +295,13 @@ h2 {
 }
 
 .Rectangle-1989 {
-    /* width: 590px; */
+    /* width: 300px; */
     /* height: 348px; */
     /* margin: 630px 30px 122px 35px; */
     /* padding: 30px 30px 21px; */
     border-radius: 50px;
-    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.05); */
     background-color: #ffffff;
-}
-
-.avatar {
-    width: 140px;
-    height: 140px;
-    /* margin: 30px 30px 0 0 ; */
-    border-radius: 140px;
-    border: solid 1px #f5f8fa;
 }
 
 .Rectangle-1332 {
@@ -401,6 +391,11 @@ footer {
     animation-iteration-count: 20;
 }
 
+/* .anim1 {
+    animation-name: anim1;
+    animation-duration: 1s;
+} */
+
 @keyframes anim {
     0% {
         fill: #2a2e43;
@@ -412,23 +407,23 @@ footer {
         fill-opacity: 1;
     }
 
-    50% {
+    100% {
         fill: #2a2e43;
         fill-opacity: 0.05
     }
-
-    50% {
-        fill: orange;
-        fill-opacity: 1;
-    }
 }
 
+/* @keyframes anim1 {
+    0% {
+        transform: translateX(+100%);
+    }
+    
+} */
 
 @media (min-width: 1200px) {
     .Path-2271 {
-        position: relative;
-        left: -300px;
-        top: -320px;
+        margin-top: -500px;
+        
     }
 }
 
@@ -480,8 +475,33 @@ footer {
         height: 48px;
     }
 
-    .navlg {
+    .navbar-brand {
         display: none;
+    }
+
+    .Rectangle-2086 {
+        /* width: 1210px; */
+        /* height: 100px; */
+        margin: 50px auto auto auto;
+        /* padding: 30px 44px 30px 0; */
+        /* opacity: 0.95; */
+        /* border-radius: 0; */
+        /* -webkit-backdrop-filter: none; */
+        backdrop-filter: none;
+        box-shadow: none;
+        background-color: transparent;
+        /* transition: 0; */
+    }
+
+    .show {
+        background-color: white;
+        border-radius: 5px;
+        padding: 15px;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        margin-bottom: 10px;
     }
 
     .Path-2271 {
