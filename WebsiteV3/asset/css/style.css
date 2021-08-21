@@ -498,7 +498,7 @@ footer {
         /* transition: 0; */
     }
 
-    .show {
+    .navbar-collapse {
         background-color: white;
         border-radius: 5px;
         padding: 15px;
