@@ -10,8 +10,10 @@ html {
 
 body {
     font-family: iransans;
-    background-color: #f7f7fa;
     overflow-x: hidden;
+    background:linear-gradient( rgba(247, 247, 250, 0.99) 100%, rgba(247, 247, 250, 0.99)100%),url("../images/London\ Map.svg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 a {
@@ -80,11 +82,11 @@ h2 {
     background-color: #ffbf1d;
 }
 
-.page2 {
+/* .page2 {
     background:linear-gradient( rgba(247, 247, 250, 0.99) 100%, rgba(247, 247, 250, 0.99)100%),url("../images/London\ Map.svg");
     background-size: cover;
     background-attachment: fixed;
-}
+} */
 
 .mar-top {
     margin-top: -300px;
@@ -261,12 +263,11 @@ h2 {
     height: 1000px;
 }
 
-.page6 {
+/* .page6 {
     background:linear-gradient( rgba(247, 247, 250, 0.99) 100%, rgba(247, 247, 250, 0.99)100%),url("../images/London\ Map.svg");
     background-size: cover;
-    /* height: 100vh; */
     background-attachment: fixed;
-}
+} */
 
 .Rectangle-2059 {
     /* width: 590px; */
@@ -597,11 +598,8 @@ footer {
         height: 100%;
     }
 
-
-    .mm {
-        /* margin: 0 auto; */
-  overflow: hidden;
-  /* position: relative; */
+    .overflowx {
+        overflow: hidden;
     }
 
     .Group-1759 {
