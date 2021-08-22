@@ -1,3 +1,5 @@
+let Server = "http://217.11.29.130:88"
+
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
     if (scroll > 1050 ) {
@@ -13,9 +15,8 @@ $.ajax({
     dataType: 'json',
     data: {},
     contentType: 'application/json; charset=utf-8',
-    url: "http://217.11.29.130:88/get_load_requests",
+    url: Server+"/get_load_requests",
     success: function (res) {
-        console.log(res);
         for (i = 0; i < res.length; i++) {
 
             switch (res[i].status) {
@@ -132,21 +133,16 @@ $.ajax({
 });
 
 
-// $(document).ready(function () {
-//     let type_string = $('.typed').attr('data-type-items').split(', ');
-//     new Typed('.typed', {
-//         strings: type_string,
-//         loop: true,
-//         typeSpeed: 100,
-//         backSpeed: 50,
-//         backDelay: 2000
-//     });
-
-
-//     $('.mobile-nav-toggle').click(function () {
-//         $('#header, #hero').toggleClass('open');
-//     });
-// });
+$(document).ready(function () {
+    let type_string = $('.typed').attr('data-type-items').split(', ');
+    new Typed('.typed', {
+        strings: type_string,
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000
+    });
+});
 
 // AOS.init();
 
@@ -183,12 +179,12 @@ $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
     // console.log(scroll);
     if (scroll > 2000 && scroll < 5000 && !isruning) {
-        console.log("trigerd");
+        // console.log("trigerd");
         j = setInterval(changeColor, 750);
         isruning = true;
     }
     if ((scroll > 5500 || scroll < 1800) && isruning) {
-        console.log("clear");
+        // console.log("clear");
         isruning = false;
         h(j);
     }

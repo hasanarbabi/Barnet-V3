@@ -167,6 +167,11 @@ h2 {
 
 } */
 
+.amar {
+    margin-top: -400px;
+    margin-bottom: 280px;
+}
+
 .Group-1137 {
     width: inherit;
 }
@@ -253,7 +258,7 @@ h2 {
 .Rectangle-2078 {
     /* width: 590px; */
     /* height: 90px; */
-    margin-bottom: 184px;
+    /* margin-bottom: 184px; */
     /* margin: 71px 30px 184px 45px;
     padding: 21px 111px 29px 107px; */
     border-radius: 30px;
@@ -320,6 +325,18 @@ h2 {
     background-position: 67% 50%;
     background-repeat: no-repeat;
     border-radius: 50px 0 0 50px;
+}
+
+.hov {
+    width: 350px;
+}
+
+.hov h1:after {
+    content: 'تماس با پشتیبانی بارنت';
+}
+
+.hov h1:hover:after {
+    content: '021-91004733';
 }
 
 .nazarat {
@@ -396,10 +413,10 @@ footer {
     animation-iteration-count: 20;
 }
 
-/* .anim1 {
-    animation-name: anim1;
-    animation-duration: 1s;
-} */
+.ball {
+    animation-name: ball;
+    animation-duration: 2s;
+}
 
 @keyframes anim {
     0% {
@@ -418,12 +435,28 @@ footer {
     }
 }
 
-/* @keyframes anim1 {
+@keyframes ball {
     0% {
-        transform: translateX(+100%);
+        transform: translatey(-100px);
+        opacity: 0;
     }
-    
-} */
+    25% {
+        transform: translatey(100px);
+        opacity: .25;
+    }
+    50% {
+        transform: translatey(-25px);
+        opacity: .5;
+    }
+    75% {
+        transform: translatey(25px);
+        opacity: .75;
+    }
+    100% {
+        transform: translatey(0);
+        opacity: 1;
+    }
+}
 
 @media (min-width: 1200px) {
     .Path-2271 {
@@ -588,6 +621,14 @@ footer {
 
     .nazarat, .nazarat2 {
         display: none;
+    }
+
+    .tasmim {
+        display: none;
+    }
+
+    .hov {
+        width: auto;
     }
 
     .Rectangle-1332 {
