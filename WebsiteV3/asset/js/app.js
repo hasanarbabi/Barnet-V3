@@ -107,17 +107,17 @@ $.ajax({
                         0: {
                             items: 1,
                         },
-                        600: {
-                            items: 3,
+                        500: {
+                            items: 2,
                         },
                         900: {
-                            items: 4,
+                            items: 3,
                         },
                         1000: {
-                            items: 5,
+                            items: 4,
                         },
                         1200: {
-                            items: 6,
+                            items: 5,
                         },
                         1700: {
                             items: 7,
