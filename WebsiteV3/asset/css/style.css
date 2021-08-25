@@ -321,7 +321,7 @@ h2 {
 .Rectangle-1332 {
     /* width: 1600px; */
     height: 690px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     /* margin: 97px 0 208px; */
     /* padding: 145px 355px 145px 655px; */
     background-color: #ffbf1d;
@@ -467,6 +467,11 @@ footer {
         margin-top: -500px;
         
     }
+
+    .dlpng {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -595,7 +600,7 @@ footer {
     .Rectangle-1332 {
         /* width: 1600px; */
         height: 560px;
-        margin-bottom: 200px;
+        /* margin-bottom: 200px; */
         /* margin: 97px 0 208px; */
         /* padding: 145px 355px 145px 655px; */
         background-color: #ffbf1d;
@@ -608,7 +613,7 @@ footer {
 
     .Rectangle-2058 {
         /* width: 1280px; */
-        height: 800px;
+        height: 1000px;
         /* margin: 300px 0 350px 0; */
         /* margin: 476px 0 268px; */
         /* padding: 33px 35px 219px; */
@@ -617,7 +622,7 @@ footer {
     }
 
     .Group-1750, .Group-1751 {
-        height: 48px;
+        height: 100%;
     }
 
     .dlpng {
@@ -827,7 +832,7 @@ footer {
     .Rectangle-1332 {
         /* width: 1600px; */
         height: 560px;
-        margin-bottom: 200px;
+        /* margin-bottom: 200px; */
         /* margin: 97px 0 208px; */
         /* padding: 145px 355px 145px 655px; */
         background-color: #ffbf1d;
@@ -1059,7 +1064,7 @@ footer {
     .Rectangle-1332 {
         /* width: 1600px; */
         height: 560px;
-        margin-bottom: 200px;
+        /* margin-bottom: 200px; */
         /* margin: 97px 0 208px; */
         /* padding: 145px 355px 145px 655px; */
         background-color: #ffbf1d;
@@ -1072,7 +1077,7 @@ footer {
 
     .Rectangle-2058 {
         /* width: 1280px; */
-        height: 800px;
+        height: 700px;
         /* margin: 300px 0 350px 0; */
         /* margin: 476px 0 268px; */
         /* padding: 33px 35px 219px; */
@@ -1293,7 +1298,7 @@ footer {
     .Rectangle-1332 {
         /* width: 1600px; */
         height: 560px;
-        margin-bottom: 200px;
+        /* margin-bottom: 200px; */
         /* margin: 97px 0 208px; */
         /* padding: 145px 355px 145px 655px; */
         background-color: #ffbf1d;
@@ -1306,7 +1311,7 @@ footer {
 
     .Rectangle-2058 {
         /* width: 1280px; */
-        height: 800px;
+        height: 700px;
         /* margin: 300px 0 350px 0; */
         /* margin: 476px 0 268px; */
         /* padding: 33px 35px 219px; */
@@ -1315,7 +1320,7 @@ footer {
     }
 
     .Group-1750, .Group-1751 {
-        height: 48px;
+        height: 100%;
     }
 
     .dlpng {
