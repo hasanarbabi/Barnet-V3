@@ -648,18 +648,9 @@ footer {
         /* overflow-x: hidden; */
     }
 
-    .footer {
-        display: none;
-    }
-
-    .footermobile {
-        display: block;
-        padding: 50px 0 50px 0;
-    }
-
     .Rectangle-1376 {
-        width: 90px;
-        height: 90px;
+        width: 45px;
+        height: 45px;
         /* margin: 41px 20px 225px 48px; */
         border-radius: 16px;
         border: solid 2px #ffffff;
@@ -880,18 +871,9 @@ footer {
         /* overflow-x: hidden; */
     }
 
-    .footer {
-        display: none;
-    }
-
-    .footermobile {
-        display: block;
-        padding: 50px 0 50px 0;
-    }
-
     .Rectangle-1376 {
-        width: 90px;
-        height: 90px;
+        width: 45px;
+        height: 45px;
         /* margin: 41px 20px 225px 48px; */
         border-radius: 16px;
         border: solid 2px #ffffff;
