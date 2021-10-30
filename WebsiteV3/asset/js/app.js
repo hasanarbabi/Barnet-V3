@@ -17,6 +17,7 @@ $.ajax({
     contentType: 'application/json; charset=utf-8',
     url: Server+"/get_load_requests",
     success: function (res) {
+        console.log(res)
         for (i = 0; i < res.length; i++) {
 
             switch (res[i].status) {
@@ -133,16 +134,16 @@ $.ajax({
 });
 
 
-$(document).ready(function () {
-    let type_string = $('.typed').attr('data-type-items').split(', ');
-    new Typed('.typed', {
-        strings: type_string,
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 50,
-        backDelay: 2000
-    });
-});
+// $(document).ready(function () {
+//     let type_string = $('.typed').attr('data-type-items').split(', ');
+//     new Typed('.typed', {
+//         strings: type_string,
+//         loop: true,
+//         typeSpeed: 100,
+//         backSpeed: 50,
+//         backDelay: 2000
+//     });
+// });
 
 // AOS.init();
 
